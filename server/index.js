@@ -6,20 +6,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-app.get("/api/tip", (req, res) => {
-    const tips =["You don’t have to pay your dues",
-    "Don’t be realistic, alter your reality instead",
-    "Pick a mentor over higher pay",
-  
-    ];
-  
-   
-    let randomIndex = Math.floor(Math.random() * tips.length);
-    let randomTip = tips[randomIndex];
-    Rollbar.info('Someone tapped the API')
-    res.status(200).send(randomTip);
-    
-  });
+
 const  {
     getVacation, deleteVacation, createVacation, updateVacation
 } = require('./controller.js')
