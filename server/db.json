@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "location": "Disney World",
+      "price": 5000,
+      "imageURL" : "https://media.istockphoto.com/photos/entrance-of-walt-disney-world-in-orlando-florida-picture-id487321176?k=20&m=487321176&s=612x612&w=0&h=FaICD2S7Ujug5NfPSUDAoy1br9A0OkFrdpQWGos1YCw="
+    },
+    {
+      "id": 2,
+      "location": "London",
+      "price": 8000,
+      "imageURL" : "https://cdn.londonandpartners.com/asset/buckingham-palace-buckingham-palace-photographer-andrew-holt-ba2d2924f687e5713154dbf611c103e1.jpg"
+    },
+    {
+      "id": 3,
+      "location": "Taj Mahal",
+      "price": 10000,
+      "imageURL" : "https://robbreport.com/wp-content/uploads/2013/06/831971.jpg?w=943"
+    }
+  ]
