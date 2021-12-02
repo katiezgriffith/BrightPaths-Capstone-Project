@@ -11,6 +11,9 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+//static address
+app.use(express.static(path.join(__dirname, 'client')))
+
 
 const  {
     getVacation, deleteVacation, createVacation, updateVacation
@@ -24,4 +27,4 @@ app.put(`/api/vacation/:id`, updateVacation)
 const {SERVER_PORT} = process.env
 
 
-app.listen(5000, () => console.log('Server running on 5000'))
+app.listen(5500, () => console.log('Server running on 5500'))

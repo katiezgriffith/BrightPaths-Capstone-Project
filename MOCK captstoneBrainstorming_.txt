@@ -1,0 +1,33 @@
+﻿MOCK captstoneBrainstorming:
+App Name :Dream_Vacay
+Making a Dream Vacation Destination Database (build out similiar to previous front end assessment)
+-should be able to display:(features)
+1.Dream destination location (get feature)
+2. URL to an image from the destination/or a location of destination (post feature)
+3. Add an estimate of cost(post feature)
+4. Should be able to add and delete if wanting to.
+5. Maybe add a list function to just add possible destinations, without needing the info like above.
+
+
+MPV Features List
+
+1. Can input/add destination into a destination card that populates on page (includes destination, cost estimate, url of pic)(POST feature)
+2. Can view suggested destinations that will show up in database already (GET feature)
+3. Can edit cost estimate by adding/subtracting from amount (UPDATE feature)
+4. Can delete destination if so choose by clicking delete button (DELETE Feature)
+5. Can click need inspiration button to be directed to youtube videoo (GET Feature)
+
+
+
+
+
+
+CODING TODO
+
+
+1. Need to create a standard front end HTML that will include buttons for different features needed  above ( add, delete, update buttons)
+2. Create placeholders that will show the different vacations in a row or column
+3. Create placeholders for images
+4. Code out css styles including tropical background/or vacation theme
+5. Maybe create an input field to add possible destinations that aren’t flushed out yet.
+6. Create database of vacations examples (Like Disney, Italy, etc)
