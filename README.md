@@ -43,7 +43,7 @@ And there it is! Your destination will populate on your database.
 Now what? Do you need inspiration? Got you covered. Navigate to the top right of the page to the pink button labeled "Need Inspiration"
 <img width="82" alt="image" src="https://user-images.githubusercontent.com/92332914/144409868-8716a499-3c65-4174-98cb-ad8d81c00bdd.png">
 
-This button will direct you to a youtube videe of Top Travel Destinations in 2021.
+This button will direct you to a youtube video of Top Travel Destinations in 2021.
 <img width="560" alt="image" src="https://user-images.githubusercontent.com/92332914/144410066-39366db6-ff49-439b-aa46-2a41f7e56894.png">
 
 
