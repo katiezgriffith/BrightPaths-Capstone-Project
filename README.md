@@ -66,6 +66,13 @@ Rome, Italy is now gone.
 
 Thank you for visiting my project and I hope you enjoyed it!
 
+MPV Features List
+
+1. Can input/add destination into a destination card that populates on page (includes destination, cost estimate, url of pic)(POST feature)
+2. Can view suggested destinations that will show up in database already (GET feature)
+3. Can edit cost estimate by adding/subtracting from amount (UPDATE feature)
+4. Can delete destination if so choose by clicking delete button (DELETE Feature)
+5. Can click need inspiration button to be directed to youtube videoo (GET Feature)
 
 
 
