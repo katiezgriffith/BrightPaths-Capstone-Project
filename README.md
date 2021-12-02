@@ -1,4 +1,4 @@
-# BrigthPath-Capstone-Project
+# BrightPath-Capstone-Project
 
 
 Welcome to my BrightPaths Capstone Project.
