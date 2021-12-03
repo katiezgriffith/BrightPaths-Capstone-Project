@@ -5,6 +5,12 @@ Welcome to my BrightPaths Capstone Project.
 
 Youtube link to demo video: https://youtu.be/ysi9kdkhKpM
 
+Tech Stack:
+Vanilla Javascript
+Node.js
+Express
+Axios
+
 
 I have decided to take a previous project I worked on and build it out more to become a Dream Vacation Database.
 
