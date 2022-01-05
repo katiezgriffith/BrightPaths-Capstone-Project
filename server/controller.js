@@ -1,6 +1,6 @@
 const vacation = require('./db.json')
 globalId= 4
-
+const path = require("path")
 
 module.exports ={
     getVacation:(req, res) => res.status(200).send(vacation),
@@ -38,7 +38,8 @@ module.exports ={
         } else {
             res.sendStatus(400)
         }
-    }
+    },
+    renderHome: (req, res) => res.status(200).sendFile(path.join(__dirname, "../client/views/index.html"))
 }
 
 
