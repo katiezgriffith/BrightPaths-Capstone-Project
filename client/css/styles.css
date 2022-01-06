@@ -16,12 +16,13 @@
   
   }
   
-  header {
+  header, h1 {
     height: 80px; 
     display: flex; 
     justify-content: center; 
     align-items: center;
     color: darkolivegreen;
+    text-shadow: 2px black;
     
   }
   
@@ -126,5 +127,6 @@ input[type='text'], input[type='number'] {
     margin: 5px;
     justify-content: flex-end;
     border: mediumblue solid 5px;
+    font-family: 'Times New Roman', Times, serif;
     
   }
