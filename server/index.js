@@ -33,7 +33,7 @@ app.delete(`/api/vacation/:id`, deleteVacation)
 app.post(`/api/vacation/`, createVacation)
 app.put(`/api/vacation/:id`, updateVacation)
 
-const {SERVER_PORT} = process.env
+const PORT = process.env.PORT || 5500
 
 
-app.listen(5500, () => console.log('Server running on 5500'))
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
