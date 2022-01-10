@@ -14,7 +14,7 @@ Axios
 
 I have decided to take a previous project I worked on and build it out more to become a Dream Vacation Database.
 
-First you navigate to localhost.5500/client in your local browser. 
+First you navigate to https://katiecapstone.herokuapp.com your local browser. 
 
 
 <img width="251" alt="image" src="https://user-images.githubusercontent.com/92332914/144406296-0cae782e-1c30-4e54-b928-e027123870f2.png">
