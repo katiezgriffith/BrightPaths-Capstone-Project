@@ -1,3 +1,5 @@
+const { default: axios } = require("axios")
+
 const vacationContainer = document.querySelector('#vacation-container')
 const form = document.querySelector('form')
 
@@ -10,7 +12,7 @@ const getAllVacation = () => axios.get(baseURL).then(vacationCallback).catch(err
 const createVacation = body => axios.post(baseURL, body).then(vacationCallback).catch(errCallback)
 const deleteVacation = id => axios.delete(`${baseURL}/${id}`).then(vacationCallback).catch(errCallback)
 const updateVacation = (id, type) => axios.put(`${baseURL}/${id}`, {type}).then(vacationCallback).catch(errCallback)
-
+// const renderHome = (id) => axios.get(baseURL.then(vacationCallback).catch(errCallback))
 function submitHandler(e) {
     e.preventDefault()
 

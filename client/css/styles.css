@@ -16,7 +16,7 @@
   
   }
   
-  header, h1 {
+  header {
     height: 80px; 
     display: flex; 
     justify-content: center; 
@@ -26,6 +26,9 @@
     
   }
   
+  h1 {
+    text-shadow: 2px black;
+  }
   main {
     display: flex; 
     justify-content: center;
