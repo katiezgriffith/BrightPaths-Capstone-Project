@@ -1,4 +1,4 @@
-const { default: axios } = require("axios")
+
 
 const vacationContainer = document.querySelector('#vacation-container')
 const form = document.querySelector('form')
