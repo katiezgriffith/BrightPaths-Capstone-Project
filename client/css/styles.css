@@ -50,6 +50,30 @@
     margin: 5px;
   }
 
+  .btn-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .yt-link {
+    background-color: #232323;
+    width: 75px;
+    height: 25px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+    padding: 1%;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .yt-link:hover {
+    background-color: turquoise;
+    color: #232323;
+  }
+
 input[type='text'], input[type='number'] {
     width: 85%;
     height: 30px;
